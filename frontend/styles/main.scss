@@ -308,7 +308,7 @@ header {
 .features {
     margin-top: 20px;
 
-    h5 {
+    h3 {
         font-size: 18px;
         color: #071c4d;
         margin-bottom: 0;
@@ -330,4 +330,21 @@ header {
         float: left;
     }
 
+}
+
+.gallery {
+    .xzoom-container {
+        display: block;
+    }
+
+    .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+    }
+
+    .xactive {
+        border: 4px solid #1abc9c;
+        box-shadow: none;
+    }
 }
