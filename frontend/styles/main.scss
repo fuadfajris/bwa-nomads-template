@@ -417,4 +417,72 @@ header {
           }
         }
     }
+
+    .payment-instructions {
+        font-weight: 300;
+        font-size: 14px;
+        color: #b1b1b1;
+    }
+    
+    .bank {
+        .bank-item {
+            h3 {
+                font-size: 18px;
+                color: #071c4d;
+                margin-bottom: 0;
+            }
+    
+            p {
+                margin-bottom: 0;
+            }
+    
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+    
+                p {
+                    font-family: Assistant;
+                    font-weight: normal;
+                    font-size: 16px;
+                    text-align: left;
+                    color: #071c4d;
+                }
+            }
+    
+            .bank-image {
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
+        }
+    }    
+}
+
+.section-success {
+    height: 90vh;
+
+    h1 {
+        font-weight: bold;
+        font-size: 26px;
+        color: #071c4d;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        border-radius: 4px;
+        background: #071c4d;
+        color: #fff;
+    
+        &:hover {
+            background: #1e3771;
+            color: #fff;
+        }
+      }
+    
 }
