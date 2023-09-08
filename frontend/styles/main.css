@@ -4,6 +4,10 @@ body {
   color: #071c4d;
 }
 
+.form-control, .input-group, .form-select {
+  width: auto;
+}
+
 .navbar-brand img {
   max-height: 40px;
 }
@@ -240,6 +244,16 @@ header .btn-get-started:hover {
   font-size: 18px;
   color: #b1b1b1;
 }
+.section-details-content .card-details .trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -295,4 +309,17 @@ header .btn-get-started:hover {
 .section-details-content .btn-join-now:hover {
   background-color: #ffaa69;
   color: #ffffff;
+}
+.section-details-content .btn-add-now {
+  background-color: #071C4D;
+  color: #fff;
+}
+.section-details-content .btn-add-now:hover {
+  color: #fff;
+}
+.section-details-content .gj-datepicker .datepicker {
+  border-right: 0;
+}
+.section-details-content .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
 }/*# sourceMappingURL=main.css.map */

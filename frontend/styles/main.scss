@@ -4,6 +4,10 @@ body {
     color: #071c4d;
 }
 
+.form-control, .input-group, .form-select {
+    width: auto;
+}
+
 // NAVBAR
 .navbar-brand {
     img {
@@ -302,6 +306,20 @@ header {
             font-size: 18px;
             color: #b1b1b1;
         }
+
+        .trip-information {
+            th {
+                font-weight: 300;
+                font-size: 18px;
+                color: #071c4d;
+            }
+
+            td {
+                font-weight: 300;
+                font-size: 18px;
+                color: #b1b1b1;
+            }
+        }
     }
 
     .card-right {
@@ -376,6 +394,27 @@ header {
         &:hover {
             background-color: #ffaa69;
             color: #ffffff;
+        }
+    }
+
+    .btn-add-now {
+        background-color: #071C4D;
+        color: #fff;
+    
+        &:hover {
+          color: #fff;
+        }
+    }
+
+    .gj-datepicker {
+        .datepicker {
+          border-right: 0;
+        }
+    
+        .input-group-append {
+          .btn {
+            padding-right: 30px;
+          }
         }
     }
 }
